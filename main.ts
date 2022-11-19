@@ -252,8 +252,6 @@ function Read_4_Analog () {
     L1 = MySensor.analogRead(MySensor.analogPort.P1)
     R1 = MySensor.analogRead(MySensor.analogPort.P2)
     R2 = MySensor.analogRead(MySensor.analogPort.P3)
-    BL = MySensor.analogRead(MySensor.analogPort.P4)
-    BR = MySensor.analogRead(MySensor.analogPort.P10)
 }
 function Box2 () {
     Uturn()
